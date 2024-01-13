@@ -1,0 +1,1 @@
+Please Run the word : npm run build to open and run the server.

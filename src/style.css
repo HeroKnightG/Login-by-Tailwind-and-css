@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    background: url('bg.jpg');
+}
+
+.wapper {
+    width: 350px;
+    height: 350px;
+    border: 2.5px solid;
+}
+
+.wapper .input {
+    text-align: center;
+    padding-bottom: 25px ;
+    padding-top: 25px ;
+}
+
+.input input {
+    border-radius: 18px;
+    padding-left: 12px;
+    background: transparent;
+}
+
+.wapper .button {
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.button button {
+    font-size: 18px;
+    background: transparent;
+    border: 2px solid;
+    width: 100px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.button button:hover {
+    background: #fff;
+    width: 125px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
